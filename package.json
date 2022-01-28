@@ -1,0 +1,25 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "leetcode problems solutions",
+  "repository": "https://gitlab.com/7.mandrill/leetcode.git",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "lint": "esw -w --color --clear"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-watch": "^7.0.0",
+    "husky": "^5.1.3",
+    "lint-staged": ">=10",
+    "prettier": "^2.2.1"
+  },
+  "lint-staged": {
+    "*.{js}": "prettier --write"
+  }
+}
+
