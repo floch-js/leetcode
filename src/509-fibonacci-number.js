@@ -96,8 +96,8 @@ function fib6(n) {
   })(n);
 }
 
-/*const n = 42*/
+const n = 1 
 
-/*const output = fibx(n)*/
+const output = fib5(n)
 
-/*console.log(output)*/
+console.log(output)
