@@ -5,7 +5,7 @@
 function minimumAbsDifference(arr) {
   let currentMinimumAbsDifference = +Infinity;
   let output;
-  const sorted = arr.sort((a, b) => a - b);
+  const sorted = [...arr].sort((a, b) => a - b);
 
   for (let i = 0; i < sorted.length - 1; ++i) {
     const a = sorted[i];
