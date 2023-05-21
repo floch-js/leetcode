@@ -22,7 +22,7 @@ const majorityElement = (nums) => {
  * @return {number}
  */
 const majorityElement2 = (nums) => {
-  return nums.sort((a, b) => a - b)[Math.floor(nums.length / 2)];
+  return [...nums].sort((a, b) => a - b)[Math.floor(nums.length / 2)];
 };
 
 const nums = [2, 2];
