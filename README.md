@@ -1,6 +1,6 @@
-#### 🧠 Some solutions to the algorithmic challenges of [leetcode](https://leetcode.com).
+#### 🧠 Some solutions to [leetcode](https://leetcode.com) problems.
 
-![my leetcode's score](resources/score.png)
+![my leetcode's score](resources/lc-score.png)
 
 ## Install
 
